@@ -22,7 +22,7 @@ iframe.onload = () => {
   };
 
   xhr.responseType = "text";
-  xhr.open('GET', '/post.html');
+  xhr.open('GET', 'post.html');
   xhr.send();
 };
 
