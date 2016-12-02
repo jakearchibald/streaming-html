@@ -1,0 +1,15 @@
+{
+  "name": "streaming-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jake Archibald <jaffathecake@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mime-types": "^2.1.13",
+    "stream-throttle": "^0.1.3"
+  }
+}
