@@ -1,15 +1,14 @@
 {
-  "name": "streaming-html",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Jake Archibald <jaffathecake@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "serve": "node index.js"
-  },
   "dependencies": {
-    "express": "^4.14.0",
-    "mime-types": "^2.1.13",
-    "stream-throttle": "^0.1.3"
-  }
+    "compressible": "^2.0.9",
+    "compression": "^1.6.2",
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "serve": "node server.js"
+  },
+  "private": true,
+  "repository": "git@github.com:jakearchibald/streaming-html.git",
+  "author": "Jake Archibald <jaffathecake@gmail.com>",
+  "license": "MIT"
 }
