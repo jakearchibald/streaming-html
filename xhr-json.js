@@ -26,7 +26,7 @@ document.querySelector('.xhr-json').addEventListener('click', function() {
 
     xhr.response.comments.forEach(function(comment) {
       var div = document.createElement('div');
-      div.className = 'timeline-comment-wrapper js-comment-container';
+      div.className = comment.class;
       div.innerHTML = comment.html;
       container.appendChild(div);
     });
