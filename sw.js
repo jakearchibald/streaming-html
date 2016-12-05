@@ -21,7 +21,7 @@ addEventListener('fetch', event => {
   
   const parts = [
     caches.match('start.html'),
-    fetch('comments.inc'),
+    fetch('comments.inc.txt'),
     caches.match('end.html')
   ];
 

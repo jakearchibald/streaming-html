@@ -64,7 +64,7 @@ document.querySelector('.xhr-ndjson').addEventListener('click', function() {
 
   var container = content.querySelector('.js-discussion');
 
-  streamJSON('comments.ndjson', function(comment) {
+  streamJSON('comments.ndjson.txt', function(comment) {
     var div = document.createElement('div');
     div.className = 'timeline-comment-wrapper js-comment-container';
     div.innerHTML = comment.html;

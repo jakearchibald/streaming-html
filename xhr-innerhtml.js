@@ -11,7 +11,7 @@ document.querySelector('.xhr-innerhtml').addEventListener('click', function() {
   };
 
   xhr.responseType = 'text';
-  xhr.open('GET', 'comments.inc');
+  xhr.open('GET', 'comments.inc.txt');
   xhr.send();
 });
 
