@@ -9,6 +9,7 @@
   <script src="xhr-ndjson.js" defer></script>
   <script src="streaming-iframe.js" defer></script>
   <script src="streaming-sw.js" defer></script>
+  <script src="streaming-element.js" defer></script>
 </head>
 <body>
 <h1>Load comments using:</h1>
@@ -18,6 +19,7 @@
   <li><button class="xhr-json">XHR json + innerHTML</button> - kinda like what GitHub is doing now, but sends JSON rather than HTML.</li>
   <li><button class="xhr-ndjson">XHR ndjson + innerHTML</button> - processing the incomming data in chunks.</li>
   <li><button class="streaming-iframe">Streaming iframe hack</button> - crazy enough to work?</li>
+  <li><button class="streaming-element">Streaming element</button> - the iframe hack as a web component.</li>
   <li><form action="sw-stream"><button disabled class="sw-stream">Streaming service worker</button></form> - Server render powered by service worker</li>
 </ul>
 <div class="content"></div>
