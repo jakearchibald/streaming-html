@@ -11,6 +11,8 @@
   <script src="streaming-sw.js" defer></script>
   <script src="text-streams.js" defer></script>
   <script src="streaming-element.js" defer></script>
+  <script src="parser.js" defer></script>
+  <script src="streaming-parser.js" defer></script>
 </head>
 <body>
 <h1>Load comments using:</h1>
@@ -21,6 +23,7 @@
   <li><button class="xhr-ndjson">XHR ndjson + innerHTML</button> - processing the incomming data in chunks.</li>
   <li><button class="streaming-iframe">Streaming iframe hack</button> - crazy enough to work?</li>
   <li><button class="streaming-element">Streaming element</button> - the iframe hack as a web component.</li>
+  <li><button class="streaming-parser">Streaming parser</button> - using <a href="https://github.com/inikulin/parse5">parse5</a> with <a href="https://github.com/RReverser/dom-treeadapter/">DOM adapter</a>.</li>
   <li><form action="sw-stream"><button disabled class="sw-stream">Streaming service worker</button></form> - Server render powered by service worker</li>
 </ul>
 <div class="content"></div>
