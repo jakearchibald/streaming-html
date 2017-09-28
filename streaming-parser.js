@@ -14,7 +14,7 @@ document.querySelector('.streaming-parser').addEventListener('click', async () =
   parser._bootstrap(document, fragmentContext);
 
   if (parser.treeAdapter.getTagName(fragmentContext) === 'template')
-    parser._pushTmplInsertionMode(IN_TEMPLATE_MODE);
+    parser._pushTmplInsertionMode('IN_TEMPLATE_MODE');
 
   parser._initTokenizerForFragmentParsing();
 
